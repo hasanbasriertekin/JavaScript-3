@@ -1,0 +1,30 @@
+
+.tab {
+    display: none;
+    text-align: start;
+    margin-left: 0.5rem;
+  }
+
+  .tab.active {
+    display: block;
+  }
+
+  .tab-button {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #df7171;
+    margin-right: 5px;
+    color: #fff;
+    border-radius: 1.5rem;
+
+  }
+  .tab-body{
+    text-align: center;
+    margin: 2rem;
+  }
+  .section-1{
+    border:1px solid #000;
+    border-radius: 1.5rem;
+    font-family: poppins , sans-serif;
+  }

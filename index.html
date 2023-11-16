@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablist</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="tab-body">
+    <section class="section-1">
+      <div id="tabList">
+        <button class="tab-button" onclick="changeTab(0)">Home</button>
+        <button class="tab-button" onclick="changeTab(1)">About</button>
+        <button class="tab-button" onclick="changeTab(2)">Contact</button>
+      </div>
+  
+      <div class="tab active" id="tab1">
+        <h2>Home</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro nam
+          consequatur ipsam nobis tempore sed repellendus distinctio, quasi
+          ratione architecto?
+        </p>
+      </div>
+  
+      <div class="tab" id="tab2">
+        <h2>About</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam
+          veniam facilis eveniet vel pariatur ad quod molestias cumque atque.
+        </p>
+      </div>
+  
+      <div class="tab" id="tab3">
+        <h2>Contact</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nulla
+          incidunt dignissimos saepe vitae vero, eaque ad distinctio odio magni!
+        </p>
+      </div>
+    </section>
+
+    <script src="App.js"></script>
+  </body>
+</html>
